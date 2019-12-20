@@ -1350,6 +1350,7 @@
                         file_manager.resetModified();
                         menuButtons.setTimeLeft(response);
                         VPL_Util.delay(updateMenu);
+                        evaluateAction();
                     }).fail(showErrorMessage);
                 },
                 bindKey:{
