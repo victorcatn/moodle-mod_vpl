@@ -1575,6 +1575,7 @@ define(
                                 menuButtons.setTimeLeft(response);
                                 VPLUtil.delay('updateMenu', updateMenu);
                             }
+			    evaluateAction();
                         }).fail(showErrorMessage);
                     }
                     doSave();
